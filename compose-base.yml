@@ -1,0 +1,71 @@
+version: "3"
+services:
+  binpoll-back:
+    hostname: ${BINPOLL_SERVER_NAME}
+    restart: always
+    environment:
+      - BINPOLL_SERVER_NAME=${BINPOLL_SERVER_NAME}
+      - BINPOLL_SERVER_EMAIL=${BINPOLL_SERVER_EMAIL}
+      - BINPOLL_DB_NAME=${BINPOLL_DB_NAME}
+      - BINPOLL_DB_USER=${BINPOLL_DB_USER}
+      - BINPOLL_DB_PASS=${BINPOLL_DB_PASS}
+      - BINPOLL_DB_PORT=${BINPOLL_DB_PORT}
+      - BINPOLL_DB_HOST=${BINPOLL_DB_HOST}
+      - BINPOLL_GOOGLE_RECAPTCHA_SECRET_KEY=${BINPOLL_GOOGLE_RECAPTCHA_SECRET_KEY}
+    command: ["./wait-for-it.sh", "database:3306", "-t", "30", "--", "bash", "/app/configure.sh"]
+    tty: true
+    networks:
+      - webnet
+    volumes:
+      - ./volumes/binpoll-back/poll_sounds:/app/poll_sounds
+      - ./volumes/binpoll-back/log:/var/log/apache2
+  binpoll-front:
+    hostname: ${BINPOLL_SERVER_NAME}
+    restart: always
+    environment:
+      - BINPOLL_API_URL=http://${BINPOLL_SERVER_NAME}/api
+      - BINPOLL_SERVER_NAME=${BINPOLL_SERVER_NAME}
+      - BINPOLL_ENABLE_SSL=0
+    tty: true
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./volumes/certbot/conf:/extern/letsencrypt
+      - ./volumes/binpoll-front/certbot-webroot:/var/www/certbot
+      - ./volumes/binpoll-front/log:/var/log/apache2
+    networks:
+      - webnet
+  database:
+    image: home.antoniuk.pl:5000/binpoll-db
+    restart: always
+    build:
+      context: database
+    container_name: binpoll-db
+    command: --character-set-server=utf8 --collation-server=utf8_general_ci
+    environment:
+      - MYSQL_ROOT_PASSWORD=${BINPOLL_DB_PASS}
+      - MYSQL_DATABASE=${BINPOLL_DB_NAME}
+      - MYSQL_USER=${BINPOLL_DB_USER}
+      - MYSQL_PASSWORD=${BINPOLL_DB_PASS}
+    networks:
+      - webnet
+    volumes:
+      - ./volumes/db:/var/lib/mysql
+  certbot:
+    image: home.antoniuk.pl:5000/binpoll-certbot
+    restart: always
+    build:
+      context: certbot
+    container_name: binpoll-certbot
+    environment:
+      - BINPOLL_SERVER_NAME=${BINPOLL_SERVER_NAME}
+      - BINPOLL_SERVER_EMAIL=${BINPOLL_SERVER_EMAIL}
+    volumes:
+      - ./volumes/certbot/conf:/etc/letsencrypt
+      - ./volumes/binpoll-front/certbot-webroot:/extern/webroot
+      - ./volumes/certbot/log:/var/log/letsencrypt
+networks:
+  webnet:
+
+  

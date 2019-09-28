@@ -1,0 +1,27 @@
+version: "3"
+services:
+  registry:
+    image: registry:2
+    restart: always
+    container_name: registry
+    environment:
+      - REGISTRY_HTTP_ADDR=0.0.0.0:5000
+      - REGISTRY_HTTP_TLS_CERTIFICATE=/extern/letsencrypt/live/home.antoniuk.pl/fullchain.pem
+      - REGISTRY_HTTP_TLS_KEY=/extern/letsencrypt/live/home.antoniuk.pl/privkey.pem
+    ports:
+      - "443:443"
+      - "5000:5000"
+    volumes:
+      - ./volumes/certbot/conf:/extern/letsencrypt
+      - ./volumes/registry/storage:/extern/storage
+      - ./volumes/registry/cache:/extern/cache
+      - ./volumes/registry/config.yml:/etc/docker/registry/config.yml
+  auth:
+    image: cesanta/docker_auth:1
+    container_name: registry-auth
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./volumes/certbot/conf:/extern/letsencrypt
+      - ./volumes/registry_auth/config:/config
+      - ./volumes/registry_auth/log:/logs

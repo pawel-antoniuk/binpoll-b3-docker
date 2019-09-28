@@ -1,0 +1,16 @@
+version: "3"
+services:
+  binpoll-back:
+    image: home.antoniuk.pl:5000/binpoll-dev-back
+    build: 
+      context: dev-back
+    container_name: binpoll-dev-back
+    volumes:
+      - ./src/binpoll-back:/app/binpoll-back
+  binpoll-front:
+    image: home.antoniuk.pl:5000/binpoll-dev-front
+    build: 
+      context: dev-front
+    container_name: binpoll-dev-front
+    volumes:
+      - ./src/binpoll-front:/app/binpoll-front

@@ -1,0 +1,7 @@
+/venv
+__pycache__
+/binpoll_back/binpoll_back/settings.py
+migrations/
+/binpoll_back/static
+/binpoll_back/data_collector/static/data_collector/poll_sounds
+

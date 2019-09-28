@@ -1,0 +1,15 @@
+version: "3"
+services:
+  binpoll-back:
+    image: home.antoniuk.pl:5000/binpoll-deploy-back
+    build: 
+      context: .
+      dockerfile: deploy-back/Dockerfile
+    container_name: binpoll-deploy-back
+  binpoll-front:
+    image: home.antoniuk.pl:5000/binpoll-deploy-front
+    build: 
+      context: .
+      dockerfile: deploy-front/Dockerfile
+    container_name: binpoll-deploy-front
+  
