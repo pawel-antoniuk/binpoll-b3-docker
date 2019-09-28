@@ -31,8 +31,6 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - ./volumes/certbot/conf:/extern/letsencrypt
-      - ./volumes/binpoll-front/certbot-webroot:/var/www/certbot
       - ./volumes/binpoll-front/log:/var/log/apache2
     networks:
       - webnet
@@ -52,19 +50,6 @@ services:
       - webnet
     volumes:
       - ./volumes/db:/var/lib/mysql
-  certbot:
-    image: home.antoniuk.pl:5000/binpoll-certbot
-    restart: always
-    build:
-      context: certbot
-    container_name: binpoll-certbot
-    environment:
-      - BINPOLL_SERVER_NAME=${BINPOLL_SERVER_NAME}
-      - BINPOLL_SERVER_EMAIL=${BINPOLL_SERVER_EMAIL}
-    volumes:
-      - ./volumes/certbot/conf:/etc/letsencrypt
-      - ./volumes/binpoll-front/certbot-webroot:/extern/webroot
-      - ./volumes/certbot/log:/var/log/letsencrypt
 networks:
   webnet:
 

@@ -1,0 +1,22 @@
+version: "3"
+services:
+  binpoll-front:
+    environment:
+      - BINPOLL_API_URL=https://${BINPOLL_SERVER_NAME}/api
+      - BINPOLL_ENABLE_SSL=1
+    volumes:
+      - ./volumes/certbot/conf:/extern/letsencrypt
+      - ./volumes/binpoll-front/certbot-webroot:/var/www/certbot
+  certbot:
+    image: home.antoniuk.pl:5000/binpoll-certbot
+    restart: always
+    build:
+      context: certbot
+    container_name: binpoll-certbot
+    environment:
+      - BINPOLL_SERVER_NAME=${BINPOLL_SERVER_NAME}
+      - BINPOLL_SERVER_EMAIL=${BINPOLL_SERVER_EMAIL}
+    volumes:
+      - ./volumes/certbot/conf:/etc/letsencrypt
+      - ./volumes/binpoll-front/certbot-webroot:/extern/webroot
+      - ./volumes/certbot/log:/var/log/letsencrypt
