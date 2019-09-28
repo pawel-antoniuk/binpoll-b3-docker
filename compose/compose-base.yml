@@ -15,7 +15,7 @@ services:
     command: ["./wait-for-it.sh", "database:3306", "-t", "30", "--", "bash", "/app/configure.sh"]
     tty: true
     networks:
-      - webnet
+      - binpoll-net
     volumes:
       - ./volumes/binpoll-back/poll_sounds:/app/poll_sounds
       - ./volumes/binpoll-back/log:/var/log/apache2
@@ -33,7 +33,7 @@ services:
     volumes:
       - ./volumes/binpoll-front/log:/var/log/apache2
     networks:
-      - webnet
+      - binpoll-net
   database:
     image: home.antoniuk.pl:5000/binpoll-db
     restart: always
@@ -47,10 +47,10 @@ services:
       - MYSQL_USER=${BINPOLL_DB_USER}
       - MYSQL_PASSWORD=${BINPOLL_DB_PASS}
     networks:
-      - webnet
+      - binpoll-net
     volumes:
       - ./volumes/db:/var/lib/mysql
 networks:
-  webnet:
+  binpoll-net:
 
   
