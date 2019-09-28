@@ -17,6 +17,7 @@ then
   apache2ctl restart
 else
   a2ensite -q binpoll-front-nossl-80 
+  apache2ctl restart
 fi
 echo "configuration end" 
 tail -f /dev/null
