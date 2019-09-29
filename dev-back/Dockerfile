@@ -30,6 +30,9 @@ COPY wait-for-it.sh         /app/
 COPY configure.sh           /app/
 #COPY binpoll-back           ${BINPOLL_BACK_SRC}
 COPY manage.sh              /app/
+RUN chmod +x wait-for-it.sh  
+RUN chmod +x configure.sh
+RUN chmod +x manage.sh 
 RUN mkdir                   ${BINPOLL_BACK_SRC}
 COPY populate_db.py         /app/
 

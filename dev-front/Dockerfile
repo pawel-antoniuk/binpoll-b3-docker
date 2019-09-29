@@ -2,6 +2,7 @@ FROM ubuntu:18.04
 WORKDIR /app
 
 COPY node_setup_10.sh .
+RUN chmod +x node_setup_10.sh
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV BINPOLL_FRONT_TARGET /var/www/binpoll-front
@@ -28,6 +29,8 @@ RUN a2enmod -q rewrite headers expires proxy proxy_http ssl\
 # copy installation scripts and config files
 COPY update-front-config.sh /app/
 COPY configure.sh           /app/
+RUN chmod +x update-front-config.sh
+RUN chmod +x configure.sh
 #COPY binpoll-front          ${BINPOLL_FRONT_SRC}
 RUN mkdir                   ${BINPOLL_FRONT_SRC}
 
