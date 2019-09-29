@@ -11,7 +11,7 @@ REQUEST_HEADERS={'Cookie': f'{SESSION_KEY}={SESSION_VALUE}'}
 audio_retains = {}
 retained_sets = []
 retain_fails = []
-for idx in range(50):
+for idx in range(500):
     response = requests.get(RETAIN_ENDPOINT, headers=REQUEST_HEADERS)
     parsed = response.json()
     if parsed['state'] == 'ok':
@@ -19,6 +19,8 @@ for idx in range(50):
         retained_sets.append({'setId': parsed['setId'], 'priority': parsed['priority'], 'retain_date': time.ctime()})
     else:
         retain_fails.append({'retain_date': time.ctime()})
+
+audio_retains = dict(sorted(audio_retains.items()))
 
 with open('output.txt', 'w') as f:
     f.write('########## audio_retains ##########\n')
