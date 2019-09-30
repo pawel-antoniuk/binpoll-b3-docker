@@ -1,0 +1,630 @@
+########## available_audio_sets ##########
+count all: 	156
+count locked: 	0
+count unlocked: 	156
+{
+  "1": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:14.156938Z"
+  },
+  "2": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.003126Z"
+  },
+  "3": {
+    "is_locked": false,
+    "locked_at": "2019-09-30T08:49:34.286652Z"
+  },
+  "4": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.424658Z"
+  },
+  "5": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:14.040888Z"
+  },
+  "6": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:14.662972Z"
+  },
+  "7": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:14.461628Z"
+  },
+  "8": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:12.790894Z"
+  },
+  "9": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.263825Z"
+  },
+  "10": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:14.538463Z"
+  },
+  "11": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.872555Z"
+  },
+  "12": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:12.577160Z"
+  },
+  "13": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:14.421390Z"
+  },
+  "14": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.914762Z"
+  },
+  "15": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.735984Z"
+  },
+  "16": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:12.702647Z"
+  },
+  "17": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:14.374940Z"
+  },
+  "18": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.222348Z"
+  },
+  "19": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:14.334979Z"
+  },
+  "20": {
+    "is_locked": false,
+    "locked_at": "2019-09-30T10:51:50.320866Z"
+  },
+  "21": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.996595Z"
+  },
+  "22": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.304552Z"
+  },
+  "23": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.597237Z"
+  },
+  "24": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:14.095400Z"
+  },
+  "25": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.553541Z"
+  },
+  "26": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:23.761504Z"
+  },
+  "27": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:12.518670Z"
+  },
+  "28": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.643359Z"
+  },
+  "29": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.180253Z"
+  },
+  "30": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:12.829170Z"
+  },
+  "31": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:14.292467Z"
+  },
+  "32": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.138794Z"
+  },
+  "33": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.504540Z"
+  },
+  "34": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.043973Z"
+  },
+  "35": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.343729Z"
+  },
+  "36": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.822916Z"
+  },
+  "37": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:12.749359Z"
+  },
+  "38": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:12.915051Z"
+  },
+  "39": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:12.663132Z"
+  },
+  "40": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.386289Z"
+  },
+  "41": {
+    "is_locked": false,
+    "locked_at": "2019-09-30T08:50:16.612307Z"
+  },
+  "42": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:12.867559Z"
+  },
+  "43": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:14.248659Z"
+  },
+  "44": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:12.960338Z"
+  },
+  "45": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.464010Z"
+  },
+  "46": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:23.803902Z"
+  },
+  "47": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:14.499577Z"
+  },
+  "48": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:14.199835Z"
+  },
+  "49": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:14.621607Z"
+  },
+  "50": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.088230Z"
+  },
+  "51": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:13.777128Z"
+  },
+  "52": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:12.622626Z"
+  },
+  "53": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.929557Z"
+  },
+  "54": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.053082Z"
+  },
+  "55": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.841014Z"
+  },
+  "56": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.800618Z"
+  },
+  "57": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.137561Z"
+  },
+  "58": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.166675Z"
+  },
+  "59": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.293149Z"
+  },
+  "60": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.177388Z"
+  },
+  "61": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.446807Z"
+  },
+  "62": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.889247Z"
+  },
+  "63": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.293601Z"
+  },
+  "64": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.723608Z"
+  },
+  "65": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:23.844444Z"
+  },
+  "66": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.604656Z"
+  },
+  "67": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.369833Z"
+  },
+  "68": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.127816Z"
+  },
+  "69": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:23.889071Z"
+  },
+  "70": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.801473Z"
+  },
+  "71": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.526712Z"
+  },
+  "72": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.682659Z"
+  },
+  "73": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.013948Z"
+  },
+  "74": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.488009Z"
+  },
+  "75": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.331365Z"
+  },
+  "76": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.050512Z"
+  },
+  "77": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:23.933955Z"
+  },
+  "78": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.722031Z"
+  },
+  "79": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.644552Z"
+  },
+  "80": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.089160Z"
+  },
+  "81": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.216985Z"
+  },
+  "82": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.254755Z"
+  },
+  "83": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.488552Z"
+  },
+  "84": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.332461Z"
+  },
+  "85": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.213726Z"
+  },
+  "86": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.882882Z"
+  },
+  "87": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.008642Z"
+  },
+  "88": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.092938Z"
+  },
+  "89": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.645813Z"
+  },
+  "90": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.969640Z"
+  },
+  "91": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.568596Z"
+  },
+  "92": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.408624Z"
+  },
+  "93": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.370379Z"
+  },
+  "94": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:23.974484Z"
+  },
+  "95": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.683934Z"
+  },
+  "96": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.529365Z"
+  },
+  "97": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.255612Z"
+  },
+  "98": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.564446Z"
+  },
+  "99": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.408833Z"
+  },
+  "100": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.759847Z"
+  },
+  "101": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.842190Z"
+  },
+  "102": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.762039Z"
+  },
+  "103": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:24.449593Z"
+  },
+  "104": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.607501Z"
+  },
+  "105": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.563185Z"
+  },
+  "106": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.783695Z"
+  },
+  "107": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.686302Z"
+  },
+  "108": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.129759Z"
+  },
+  "109": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.981692Z"
+  },
+  "110": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.807029Z"
+  },
+  "111": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.315846Z"
+  },
+  "112": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.210795Z"
+  },
+  "113": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.006065Z"
+  },
+  "114": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.766306Z"
+  },
+  "115": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.419499Z"
+  },
+  "116": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.643846Z"
+  },
+  "117": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.233831Z"
+  },
+  "118": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:28.078068Z"
+  },
+  "119": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.743768Z"
+  },
+  "120": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.339482Z"
+  },
+  "121": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.272679Z"
+  },
+  "122": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.299585Z"
+  },
+  "123": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.604889Z"
+  },
+  "124": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.439878Z"
+  },
+  "125": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.110423Z"
+  },
+  "126": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.064073Z"
+  },
+  "127": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.925288Z"
+  },
+  "128": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.933525Z"
+  },
+  "129": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.047706Z"
+  },
+  "130": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.553288Z"
+  },
+  "131": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:28.118369Z"
+  },
+  "132": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:28.028440Z"
+  },
+  "133": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.357657Z"
+  },
+  "134": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.400104Z"
+  },
+  "135": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.260290Z"
+  },
+  "136": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.090143Z"
+  },
+  "137": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.695353Z"
+  },
+  "138": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.869016Z"
+  },
+  "139": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.923294Z"
+  },
+  "140": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.171196Z"
+  },
+  "141": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.378331Z"
+  },
+  "142": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:25.964286Z"
+  },
+  "143": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.603876Z"
+  },
+  "144": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.153678Z"
+  },
+  "145": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.017146Z"
+  },
+  "146": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.648172Z"
+  },
+  "147": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.850699Z"
+  },
+  "148": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.522256Z"
+  },
+  "149": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.481972Z"
+  },
+  "150": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.507691Z"
+  },
+  "151": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.193273Z"
+  },
+  "152": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.825769Z"
+  },
+  "153": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.891114Z"
+  },
+  "154": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.969369Z"
+  },
+  "155": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:27.727426Z"
+  },
+  "156": {
+    "is_locked": false,
+    "locked_at": "2019-09-29T20:30:26.463773Z"
+  }
+}
