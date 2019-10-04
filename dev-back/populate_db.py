@@ -24,17 +24,20 @@ def insert_filenames(brir_filenames):
     for brir, filenames in brir_filenames.items():
         for filename in filenames:
             cursor.execute(sql_insert_audiosample, (filename,))
+            print(f'Inserted {filename} sample')
 
-def insert_audioset(filenames, priority):
+def insert_audiosets(filenames, priority):
+    print(f'Creating {len(filenames) // AUDIO_SET_SIZE} audio sets with priority {priority}')
     for audioset_idx in range(len(filenames) // AUDIO_SET_SIZE):
         cursor.execute(sql_insert_audioset, (priority,))
         audioset_id = cursor.lastrowid
         cursor.execute(sql_insert_available_audioset, (audioset_id,))
+        print(f'Created audio set {audioset_id}')
 
         for filename_idx in range(AUDIO_SET_SIZE):
             filename = filenames[audioset_idx * AUDIO_SET_SIZE + filename_idx]
             cursor.execute(sql_insert_audioset_samples, (audioset_id, filename))
-            print('inserted ', filename)
+            print(f'Added {filename} sample to audio set {audioset_id} ')
 
 def get_brir_filenames():
     brir_filenames = {}
@@ -47,6 +50,7 @@ def get_brir_filenames():
         else:
             brir_filenames[brir] = set()
             brir_filenames[brir].add(filename)
+        print(f'Found {filename} file')
     
     for brir, filenames in brir_filenames.items():
         filenames = list(filenames)
@@ -58,10 +62,12 @@ def get_brir_filenames():
 cursor.execute(sql_select_audioset)
 (number_of_rows,) = cursor.fetchone()
 if number_of_rows == 0:
+    print('Database is empty. Populating...')
     brir_filenames = get_brir_filenames()
     insert_filenames(brir_filenames)
     for priority in [0, 1, 2]:
+        print(f'Populating layer {priority}')
         for brir, filenames in brir_filenames.items():
-            insert_audioset(filenames, priority)
+            insert_audiosets(filenames, priority)
 
     db.commit()

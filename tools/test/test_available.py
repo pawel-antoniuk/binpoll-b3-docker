@@ -5,7 +5,7 @@ import json
 BASE_URL='https://home.antoniuk.pl/api/'
 AVAILABLE_AUDIO_SET_ENDPOINT=BASE_URL+'available_audio_set/'
 SESSION_KEY='sessionid'
-SESSION_VALUE='i7tb0jjbv9g72219y87z2yljhbsm5q4b'
+SESSION_VALUE='acwadpvo98fe6bbqu0paz85boza38gy3'
 REQUEST_HEADERS={'Cookie': f'{SESSION_KEY}={SESSION_VALUE}'}
 
 available_audio_sets = {}
@@ -13,8 +13,9 @@ response = requests.get(AVAILABLE_AUDIO_SET_ENDPOINT, headers=REQUEST_HEADERS)
 parsed = response.json()
 for audio_set in parsed:
     available_audio_sets[audio_set['audioSet']['id']] = {
+        'priority': audio_set['audioSet']['priority'],
         'is_locked': audio_set['isLocked'],
-        'locked_at': audio_set['lockedAt']
+        'locked_at': audio_set['lockedAt'],
     }
 
 available_audio_sets = dict(sorted(available_audio_sets.items()))

@@ -1,24 +1,26 @@
 import requests
 import time
 import json
+import datetime
 
 BASE_URL='https://home.antoniuk.pl/api/'
 RETAIN_ENDPOINT=BASE_URL+'retain/'
 SESSION_KEY='sessionid'
-SESSION_VALUE='i7tb0jjbv9g72219y87z2yljhbsm5q4b'
+SESSION_VALUE='acwadpvo98fe6bbqu0paz85boza38gy3'
 REQUEST_HEADERS={'Cookie': f'{SESSION_KEY}={SESSION_VALUE}'}
 
 audio_retains = {}
 retained_sets = []
 retain_fails = []
-for idx in range(50):
+for idx in range(80):
     response = requests.get(RETAIN_ENDPOINT, headers=REQUEST_HEADERS)
     parsed = response.json()
+    now = str(datetime.datetime.now(datetime.timezone.utc))
     if parsed['state'] == 'ok':
-        audio_retains.setdefault(parsed['setId'], []).append({'priority': parsed['priority'], 'retain_date': time.ctime()})
-        retained_sets.append({'setId': parsed['setId'], 'priority': parsed['priority'], 'retain_date': time.ctime()})
+        audio_retains.setdefault(parsed['setId'], []).append({'priority': parsed['priority'], 'retain_date': now})
+        retained_sets.append({'setId': parsed['setId'], 'priority': parsed['priority'], 'retain_date': now})
     else:
-        retain_fails.append({'retain_date': time.ctime()})
+        retain_fails.append({'retain_date': now})
 
 audio_retains = dict(sorted(audio_retains.items()))
 

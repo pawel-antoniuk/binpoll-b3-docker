@@ -1,561 +1,260 @@
 ########## audio_retains ##########
-count: 50
+count: 1
 {
-  "1": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "2": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "3": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:18 2019"
-    }
-  ],
-  "4": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:16 2019"
-    }
-  ],
-  "5": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:16 2019"
-    }
-  ],
-  "6": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "7": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "8": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:16 2019"
-    }
-  ],
-  "9": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "10": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:16 2019"
-    }
-  ],
-  "11": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:16 2019"
-    }
-  ],
-  "12": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "13": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:16 2019"
-    }
-  ],
-  "14": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:16 2019"
-    }
-  ],
-  "15": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:18 2019"
-    }
-  ],
-  "16": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:16 2019"
-    }
-  ],
-  "17": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:16 2019"
-    }
-  ],
-  "18": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:18 2019"
-    }
-  ],
-  "19": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:16 2019"
-    }
-  ],
-  "20": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "21": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:16 2019"
-    }
-  ],
-  "22": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "23": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "25": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "26": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:16 2019"
-    }
-  ],
-  "27": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "28": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "29": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "30": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "31": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "32": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:18 2019"
-    }
-  ],
-  "33": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:16 2019"
-    }
-  ],
-  "34": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:16 2019"
-    }
-  ],
-  "35": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:16 2019"
-    }
-  ],
-  "36": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "37": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:16 2019"
-    }
-  ],
-  "38": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:18 2019"
-    }
-  ],
   "39": [
     {
       "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "40": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:16 2019"
-    }
-  ],
-  "41": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "42": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "43": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:16 2019"
-    }
-  ],
-  "44": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "45": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:18 2019"
-    }
-  ],
-  "46": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:16 2019"
-    }
-  ],
-  "47": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:16 2019"
-    }
-  ],
-  "48": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "49": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
-    }
-  ],
-  "50": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:16 2019"
-    }
-  ],
-  "51": [
-    {
-      "priority": 0,
-      "retain_date": "Mon Sep 30 13:22:17 2019"
+      "retain_date": "2019-09-30 18:00:26.344775+00:00"
     }
   ]
 }
 ########## retained_sets ##########
-count: 50
+count: 1
 [
-  {
-    "setId": 5,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:16 2019"
-  },
-  {
-    "setId": 16,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:16 2019"
-  },
-  {
-    "setId": 37,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:16 2019"
-  },
-  {
-    "setId": 46,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:16 2019"
-  },
-  {
-    "setId": 26,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:16 2019"
-  },
-  {
-    "setId": 47,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:16 2019"
-  },
-  {
-    "setId": 40,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:16 2019"
-  },
-  {
-    "setId": 13,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:16 2019"
-  },
-  {
-    "setId": 14,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:16 2019"
-  },
-  {
-    "setId": 10,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:16 2019"
-  },
-  {
-    "setId": 19,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:16 2019"
-  },
-  {
-    "setId": 34,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:16 2019"
-  },
-  {
-    "setId": 21,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:16 2019"
-  },
-  {
-    "setId": 35,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:16 2019"
-  },
-  {
-    "setId": 33,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:16 2019"
-  },
-  {
-    "setId": 11,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:16 2019"
-  },
-  {
-    "setId": 4,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:16 2019"
-  },
-  {
-    "setId": 43,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:16 2019"
-  },
-  {
-    "setId": 17,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:16 2019"
-  },
-  {
-    "setId": 8,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:16 2019"
-  },
-  {
-    "setId": 50,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:16 2019"
-  },
-  {
-    "setId": 29,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 36,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 23,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 28,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 51,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 6,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 41,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 22,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 1,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 48,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 9,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 42,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 27,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 7,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 44,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 30,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 2,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 20,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 49,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 25,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 12,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
   {
     "setId": 39,
     "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 31,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:17 2019"
-  },
-  {
-    "setId": 32,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:18 2019"
-  },
-  {
-    "setId": 45,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:18 2019"
-  },
-  {
-    "setId": 18,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:18 2019"
-  },
-  {
-    "setId": 15,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:18 2019"
-  },
-  {
-    "setId": 38,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:18 2019"
-  },
-  {
-    "setId": 3,
-    "priority": 0,
-    "retain_date": "Mon Sep 30 13:22:18 2019"
+    "retain_date": "2019-09-30 18:00:26.344775+00:00"
   }
 ]
 ########## retain_fails ##########
-count: 0
-[]
+count: 79
+[
+  {
+    "retain_date": "2019-09-30 18:00:26.381774+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:26.417773+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:26.454774+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:26.494773+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:26.532654+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:26.571652+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:26.611288+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:26.649288+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:26.690288+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:26.734290+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:26.776290+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:26.813798+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:26.850815+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:26.889325+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:26.926324+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:26.961324+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:26.998327+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.034325+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.070325+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.107324+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.143325+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.181324+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.221325+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.257325+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.297330+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.334330+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.374330+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.411397+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.449074+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.485073+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.522607+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.559607+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.597608+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.634530+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.671042+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.709603+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.747603+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.787601+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.826424+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.866964+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.907626+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.946626+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:27.984625+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.022625+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.060628+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.099624+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.139029+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.181700+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.221686+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.263426+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.306440+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.353137+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.399283+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.439284+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.480284+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.526552+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.565555+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.606552+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.644269+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.682270+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.721269+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.758269+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.797269+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.837268+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.876268+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.917269+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.956389+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:28.994272+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:29.035269+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:29.072269+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:29.111491+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:29.149888+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:29.188394+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:29.224396+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:29.261395+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:29.300396+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:29.340395+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:29.378394+00:00"
+  },
+  {
+    "retain_date": "2019-09-30 18:00:29.419394+00:00"
+  }
+]
