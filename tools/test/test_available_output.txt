@@ -1,432 +1,412 @@
 ########## available_audio_sets ##########
-count all: 	137
+count all: 	133
 count locked: 	80
-count unlocked: 	57
+count unlocked: 	53
 {
   "1": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.666489Z"
+    "locked_at": "2019-10-11T14:45:01.179827Z"
   },
   "2": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.013763Z"
+    "locked_at": "2019-10-11T14:45:01.121964Z"
   },
   "3": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.738038Z"
-  },
-  "6": {
-    "priority": 0,
-    "is_locked": true,
-    "locked_at": "2019-10-10T19:11:49.690746Z"
+    "locked_at": "2019-10-11T14:45:00.894578Z"
   },
   "7": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:49.919040Z"
+    "locked_at": "2019-10-11T14:45:01.038632Z"
   },
   "8": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.045416Z"
+    "locked_at": "2019-10-11T14:45:00.809493Z"
   },
   "9": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:49.827171Z"
+    "locked_at": "2019-10-11T14:45:01.149565Z"
   },
   "10": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:49.983983Z"
+    "locked_at": "2019-10-11T14:45:01.428048Z"
   },
   "11": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.259221Z"
+    "locked_at": "2019-10-11T14:45:01.006504Z"
   },
   "15": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.322368Z"
+    "locked_at": "2019-10-11T14:45:00.921601Z"
   },
   "16": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.108548Z"
+    "locked_at": "2019-10-11T14:45:00.582358Z"
   },
   "17": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.444056Z"
+    "locked_at": "2019-10-11T14:45:00.609986Z"
   },
   "18": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:49.857040Z"
+    "locked_at": "2019-10-11T14:45:01.289413Z"
   },
   "19": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:49.948998Z"
+    "locked_at": "2019-10-11T14:45:01.261421Z"
   },
   "20": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.350587Z"
+    "locked_at": "2019-10-11T14:45:01.399362Z"
   },
   "21": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.633734Z"
+    "locked_at": "2019-10-11T14:45:01.206804Z"
   },
   "22": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.197871Z"
+    "locked_at": "2019-10-11T14:45:01.094198Z"
   },
   "24": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:49.791273Z"
+    "locked_at": "2019-10-11T14:45:00.978544Z"
   },
   "25": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:49.725639Z"
+    "locked_at": "2019-10-11T14:45:01.235225Z"
   },
   "26": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.475991Z"
+    "locked_at": "2019-10-11T14:45:00.837621Z"
   },
   "27": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.380595Z"
+    "locked_at": "2019-10-11T14:45:01.372242Z"
   },
   "28": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.168575Z"
+    "locked_at": "2019-10-11T14:45:00.948912Z"
   },
   "30": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.569072Z"
-  },
-  "31": {
-    "priority": 0,
-    "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.138553Z"
+    "locked_at": "2019-10-11T14:45:01.344017Z"
   },
   "33": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.770783Z"
+    "locked_at": "2019-10-11T14:45:00.666534Z"
   },
   "34": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:49.760104Z"
+    "locked_at": "2019-10-11T14:45:00.723486Z"
   },
   "36": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.413062Z"
+    "locked_at": "2019-10-11T14:45:00.865874Z"
   },
   "38": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.078047Z"
+    "locked_at": "2019-10-11T14:45:01.066789Z"
   },
   "41": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.229909Z"
+    "locked_at": "2019-10-11T14:45:01.317499Z"
   },
   "45": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.291496Z"
-  },
-  "47": {
-    "priority": 0,
-    "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.600690Z"
+    "locked_at": "2019-10-11T14:45:00.695992Z"
   },
   "48": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.703063Z"
-  },
-  "49": {
-    "priority": 0,
-    "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.506519Z"
+    "locked_at": "2019-10-11T14:45:00.753658Z"
   },
   "51": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.536941Z"
+    "locked_at": "2019-10-11T14:45:00.782158Z"
   },
   "52": {
     "priority": 0,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:49.888704Z"
+    "locked_at": "2019-10-11T14:45:00.639511Z"
   },
   "53": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.969038Z"
+    "locked_at": "2019-10-11T14:45:01.981009Z"
   },
   "54": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.317605Z"
+    "locked_at": "2019-10-11T14:45:02.337590Z"
   },
   "55": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.480720Z"
+    "locked_at": "2019-10-11T14:45:02.788365Z"
   },
   "56": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.924040Z"
+    "locked_at": "2019-10-11T14:45:01.485494Z"
   },
   "57": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.869473Z"
+    "locked_at": "2019-10-11T14:45:02.307246Z"
   },
   "58": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.547457Z"
+    "locked_at": "2019-10-11T14:45:02.651026Z"
   },
   "59": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:52.079148Z"
+    "locked_at": "2019-10-11T14:45:02.967302Z"
   },
   "60": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.672936Z"
+    "locked_at": "2019-10-11T14:45:02.460278Z"
   },
   "61": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.843178Z"
+    "locked_at": "2019-10-11T14:45:02.157596Z"
   },
   "62": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.217665Z"
+    "locked_at": "2019-10-11T14:45:02.877612Z"
   },
   "63": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:52.361959Z"
+    "locked_at": "2019-10-11T14:45:02.044225Z"
   },
   "64": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.282935Z"
+    "locked_at": "2019-10-11T14:45:02.244982Z"
   },
   "65": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:52.044942Z"
+    "locked_at": "2019-10-11T14:45:02.552939Z"
   },
   "66": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:52.005549Z"
+    "locked_at": "2019-10-11T14:45:02.522597Z"
   },
   "67": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.776685Z"
+    "locked_at": "2019-10-11T14:45:01.542617Z"
   },
   "68": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.900193Z"
+    "locked_at": "2019-10-11T14:45:02.014733Z"
   },
   "69": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.037123Z"
+    "locked_at": "2019-10-11T14:45:02.185606Z"
   },
   "70": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.248329Z"
+    "locked_at": "2019-10-11T14:45:02.906510Z"
   },
   "71": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.113135Z"
+    "locked_at": "2019-10-11T14:45:02.368115Z"
   },
   "72": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.186195Z"
+    "locked_at": "2019-10-11T14:45:02.072257Z"
   },
   "73": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:52.325138Z"
+    "locked_at": "2019-10-11T14:45:02.216317Z"
   },
   "74": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.745134Z"
+    "locked_at": "2019-10-11T14:45:02.428580Z"
   },
   "75": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.366822Z"
+    "locked_at": "2019-10-11T14:45:02.491499Z"
   },
   "76": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.805572Z"
+    "locked_at": "2019-10-11T14:45:01.845730Z"
   },
   "77": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:52.118776Z"
+    "locked_at": "2019-10-11T14:45:01.513255Z"
   },
   "78": {
     "priority": 1,
-    "is_locked": false,
-    "locked_at": "2019-10-07T04:12:58.027075Z"
+    "is_locked": true,
+    "locked_at": "2019-10-11T14:45:01.946308Z"
   },
   "79": {
     "priority": 1,
-    "is_locked": false,
-    "locked_at": "2019-10-07T04:12:57.759038Z"
+    "is_locked": true,
+    "locked_at": "2019-10-11T14:45:02.715443Z"
   },
   "81": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.002289Z"
+    "locked_at": "2019-10-11T14:45:01.878874Z"
   },
   "82": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:52.190033Z"
+    "locked_at": "2019-10-11T14:45:01.779659Z"
   },
   "83": {
     "priority": 1,
-    "is_locked": false,
-    "locked_at": "2019-10-07T04:12:58.276460Z"
+    "is_locked": true,
+    "locked_at": "2019-10-11T14:45:02.820040Z"
   },
   "84": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.961285Z"
+    "locked_at": "2019-10-11T14:45:02.587463Z"
   },
   "85": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.407096Z"
+    "locked_at": "2019-10-11T14:45:01.572559Z"
   },
   "86": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.581840Z"
+    "locked_at": "2019-10-11T14:45:01.678960Z"
   },
   "87": {
     "priority": 1,
-    "is_locked": true,
+    "is_locked": false,
     "locked_at": "2019-10-10T19:11:51.077146Z"
   },
   "88": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:52.226046Z"
+    "locked_at": "2019-10-11T14:45:02.622512Z"
   },
   "89": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.642394Z"
+    "locked_at": "2019-10-11T14:45:02.276032Z"
   },
   "90": {
     "priority": 1,
-    "is_locked": false,
-    "locked_at": "2019-10-07T04:12:58.796872Z"
+    "is_locked": true,
+    "locked_at": "2019-10-11T14:45:01.457613Z"
   },
   "91": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.884179Z"
+    "locked_at": "2019-10-11T14:45:02.937002Z"
   },
   "92": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.444341Z"
+    "locked_at": "2019-10-11T14:45:01.602838Z"
   },
   "93": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.809107Z"
+    "locked_at": "2019-10-11T14:45:02.129659Z"
   },
   "94": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.150265Z"
+    "locked_at": "2019-10-11T14:45:01.650131Z"
   },
   "95": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.612108Z"
+    "locked_at": "2019-10-11T14:45:01.743868Z"
   },
   "96": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:52.154012Z"
+    "locked_at": "2019-10-11T14:45:02.755341Z"
   },
   "97": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.936253Z"
+    "locked_at": "2019-10-11T14:45:02.848852Z"
   },
   "98": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:52.291799Z"
+    "locked_at": "2019-10-11T14:45:01.813179Z"
   },
   "99": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:50.837138Z"
+    "locked_at": "2019-10-11T14:45:01.707568Z"
   },
   "100": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.516270Z"
+    "locked_at": "2019-10-11T14:45:01.911504Z"
   },
   "101": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:51.711235Z"
+    "locked_at": "2019-10-11T14:45:02.101072Z"
   },
   "102": {
     "priority": 1,
-    "is_locked": false,
-    "locked_at": "2019-10-07T04:12:58.457603Z"
+    "is_locked": true,
+    "locked_at": "2019-10-11T14:45:02.680068Z"
   },
   "104": {
     "priority": 1,
     "is_locked": true,
-    "locked_at": "2019-10-10T19:11:52.258171Z"
+    "locked_at": "2019-10-11T14:45:02.398688Z"
   },
   "105": {
     "priority": 2,
