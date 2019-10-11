@@ -8,7 +8,7 @@ DEBUG_ENDPOINT=BASE_URL+'debug/'
 REQUEST_HEADERS={}
 
 with requests.Session() as session:
-    debug_secret = {'key': 'binpoll@5'}
+    debug_secret = {'key': 'e329e6179a600391c749f5761fefd25b'}
     response = session.post(DEBUG_ENDPOINT, data=debug_secret, headers=REQUEST_HEADERS)
     print(f'DEBUG_ENDPOINT response: {response}')
 
@@ -17,6 +17,7 @@ with requests.Session() as session:
     try:
         parsed = response.json()
         for audio_set in parsed:
+            print(audio_set)
             available_audio_sets[audio_set['audioSet']['id']] = {
                 'priority': audio_set['audioSet']['priority'],
                 'is_locked': audio_set['isLocked'],

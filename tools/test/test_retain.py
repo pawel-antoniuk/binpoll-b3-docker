@@ -13,7 +13,7 @@ retained_sets = []
 retain_fails = []
 
 with requests.Session() as session:
-    debug_secret = {'key': 'binpoll@5'}
+    debug_secret = {'key': 'e329e6179a600391c749f5761fefd25b'}
     response = session.post(DEBUG_ENDPOINT, data=debug_secret, headers=REQUEST_HEADERS)
     print(f'DEBUG_ENDPOINT response: {response}')
 
