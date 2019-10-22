@@ -21,7 +21,7 @@ RUN virtualenv /app/venv \
 
 # configure apache2
 COPY binpoll-back.conf      /etc/apache2/sites-available/
-RUN a2enmod -q headers ratelimit expires\
+RUN a2enmod -q headers ratelimit expires remoteip \
     && a2dissite -q 000-default \
     && a2ensite -q binpoll-back
 
