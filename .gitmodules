@@ -1,6 +1,6 @@
 [submodule ".\\src\\binpoll-front"]
 	path = .\\src\\binpoll-front
-	url = https://github.com/Niekarp/binpoll-front-triple-stimulus.git
+	url = https://github.com/Niekarp/binpoll-front-b3
 [submodule ".\\src\\binpoll-back"]
 	path = .\\src\\binpoll-back
-	url = https://github.com/pawel-antoniuk/binpoll-b2-back.git
+	url = https://github.com/pawel-antoniuk/binpoll-b3-back
